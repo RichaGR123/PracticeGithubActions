@@ -12,6 +12,6 @@ jobs:
     runs-on: windows-latest
     steps:
       - run: echo "Welcome to Windows"
-      - run: cd .ssh
+      - run: cd C\user\ricgupta\.ssh
       - run: notepad config
       
